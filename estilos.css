@@ -1,0 +1,87 @@
+header{
+    width: 940px;
+    margin: 25px auto;
+}
+
+.titulo{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #215272;
+    font-size: 300%;
+    display: block;
+}
+
+main{
+    width: 940px;   
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 0;
+
+}
+
+#imagen{
+    width: 250px;
+}
+
+#jugar{
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 0 50px;   
+    background-color: #1566a9;
+    color: white;
+    
+}
+
+.letras_botones{
+    margin: 25px 0;
+    
+}
+
+.letras{
+    width: 70px;
+}
+
+#palabra_random span{
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 50px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px ){
+    header{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .titulo{
+        display: flex;
+        font-size: 150%;
+        width: 368px;
+    }
+
+    main{
+        width: 368px;
+        margin: 0 auto;
+    }
+
+    #imagen{
+        display: flex;
+        margin-left: 17%;
+    }
+
+    .letras_botones{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 368px;
+        margin: 0 auto;
+        
+
+    }
+}
+

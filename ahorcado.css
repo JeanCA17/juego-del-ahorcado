@@ -1,0 +1,39 @@
+
+.letra_titulo{
+    margin-top: 40px;
+    margin-left: 80px;
+    
+}
+
+main{
+    width: 940px;
+    margin: 25px auto;
+   
+}
+
+.titulo_inicio{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #215272;
+    font-size: 300%;
+    display: block;
+
+}
+
+.boton_inicio{
+    text-align: center;
+    padding: 250px 0;
+   
+}
+
+.iniciar1{
+    border: 2px solid #000000;
+    border-radius: 25px;
+    font-size: 50px;
+    padding: 0 50px;   
+    background-color: #1566a9;
+    color: white;
+    
+}
+
+
